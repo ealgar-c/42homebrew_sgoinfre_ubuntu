@@ -5,11 +5,11 @@
 42 Homebrew
 ===========
 
-### Install Homebrew properly on your 42 session
+### Install Homebrew properly on your 42 session, but with all the data on the sgoinfre.
 
 Works on **ISCSI sessions**, and fixes `flock` issues on **NFS sessions**.
 
-Moves temporary Homebrew data (`Temp` and `Cache`) to `/tmp`, leaving your home directory cleaner.
+Moves temporary Homebrew data (`Temp` and `Cache`) to `/tmp` and symlinks the rest from the sgoinfre, leaving your home directory barely touched.
 
 
 Install
@@ -17,7 +17,7 @@ Install
 Run this command from your terminal:
 
 ```sh
-curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
+curl -fsSL https://raw.githubusercontent.com/docgloucester/42homebrew_sgoinfre/master/install.sh | zsh
 ```
 
 Homebrew is now ready on your session.
