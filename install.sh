@@ -11,7 +11,7 @@
 # Create symlink of .brew in personal sgoinfre
 rm -rf $HOME/.brew
 rm -rf /sgoinfre/goinfre/Perso/$USER/homebrew
-mkdir /sgoinfre/goinfre/Perso/$USER/homebrew
+mkdir -p /sgoinfre/goinfre/Perso/$USER/homebrew
 chmod -R 700 /sgoinfre/goinfre/Perso/$USER
 ln -s /sgoinfre/goinfre/Perso/$USER/homebrew $HOME/.brew
 
