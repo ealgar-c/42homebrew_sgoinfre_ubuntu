@@ -31,7 +31,7 @@ mkdir -p \$HOMEBREW_TEMP
 # If NFS session
 # Symlink Locks folder in /tmp
 HOMEBREW_LOCKS_TARGET=/tmp/\$USER/Homebrew/Locks
-HOMEBREW_LOCKS_FOLDER=\$HOME/.brew/var/homebrew
+HOMEBREW_LOCKS_FOLDER=\$HOME/.brew/var/homebrew/Locks
 mkdir -p \$HOMEBREW_LOCKS_TARGET
 mkdir -p \$HOMEBREW_LOCKS_FOLDER
 # Symlink to Locks target folders
