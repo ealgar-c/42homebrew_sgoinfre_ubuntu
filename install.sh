@@ -54,7 +54,6 @@ EOL
 fi
 
 source $HOME/.brewconfig.zsh
-rehash
 brew update
 
 echo "\nPlease open a new shell to finish installation" 
